@@ -1,0 +1,222 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(bg-nav.jpg);
+	background-size: auto;
+	font-family: sans-serif;
+}
+
+#header{
+	background-color: rgba(0,0,0,0.4);
+	width: 100vw;
+	height: 35vh;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 80vw;
+	margin: 0px auto;
+}
+
+#logo1, #logo3{
+	width: 20vw;
+	height: 20vh;
+	float: left;
+}
+
+#logo2{
+	width: 40vw;
+	height: 20vh;
+	float: left;
+}
+
+#logo1 #ul1{
+	margin: 0px;
+	padding-top: 40px;
+}
+
+#logo1 #ul1 li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+#logo1 #ul1 li a{
+	text-decoration: none;
+	color: white;
+}
+
+#logo1 #ul1 li a:hover{
+	color: yellow;
+}
+
+#logo1 #ul2{
+	margin: 0px;
+	padding-top: 40px;
+}
+
+#logo1 #ul2 li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+}
+#logo1 #ul2 li a{
+	text-decoration: none;
+	color: yellow;
+}
+
+#logo1 #ul2 li a:hover{
+	text-decoration: underline;
+}
+
+#logo2{
+	margin: 20px auto;
+}
+
+#logo3 #datHang{
+	width: 250px;
+	height: 50px;
+	font-size: 20px;
+	background: yellow;
+	margin-top: 40px;
+	margin-right: 0px;
+	border-radius: 5px;
+}
+
+#logo3 #datHang p{
+	line-height: 50px;
+	text-align: center;
+}
+
+#logo3 #datHang:hover{
+	background: white;
+}
+
+#menu{
+	width: 80vw;
+	height: 15vh;
+	clear: left;
+	border-top: 1px solid #ccc
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul a{
+	text-align: center;
+	text-decoration: none;
+	width: 13vw;
+	float: left;
+	color: #fff;
+	line-height: 7.5vh;
+	text-align: center;
+	border-left: 1px solid #ccc;
+}
+
+#menu a:hover{
+	border-bottom: 2px solid red;
+}
+
+#content{
+	height: 55vh;
+	box-sizing: border-box;
+}
+
+#top{
+	height: 10vh;
+}
+
+#top h2{
+	line-height: 5vh;
+	color: white;
+	font-size: 30px;
+}
+
+#left{
+	width: 45vw;
+	height: 40vh;
+	float: left;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	margin-right: 40px;
+}
+
+#left h2{
+	margin: 20px 0px 0px 20px;
+}
+
+#left form{
+	margin: 20px 0px 0px 20px;
+}
+#left label{
+	text-align: right;
+	font-size: 20px;
+}
+#left input{
+	margin: 10px 0px 10px 0px;
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+#left button{
+	border: none;
+  	text-align: center;
+  	color: #fff;
+  	font-weight: 700;
+  	font-size: 15px;
+  	background-color: red;
+  	padding: 12px 100px;
+  	border-radius: 5px;
+}
+
+#left button:hover{
+	background-color: white;
+	color: black;
+}
+
+#right{
+	width: 25vw;
+	height: auto;
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: white;
+}
+
+#right h2{
+	margin: 10px 10px;
+	font-size: 18px;
+}
+
+#right ul{
+	margin: 10px 20px;
+}
+
+#right	ul li{
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+#footer{
+	width: 100vw;
+	height: 30vh;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+}
+
+#footer img{
+	display: block;
+	height: 100px;
+	width: auto;
+	margin: 0px auto;
+}
+
+#footer p{
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5px;
+}
